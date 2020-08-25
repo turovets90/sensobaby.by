@@ -10280,6 +10280,11 @@ header ul li {
     font-size: 30px;
   }
 }
+@media (max-width: 575px) {
+  .title strong {
+    font-size: 25px;
+  }
+}
 .title span {
   margin-right: 20px;
 }
@@ -10296,6 +10301,11 @@ header ul li {
 @media (max-width: 991px) {
   .title span.pacifico {
     font-size: 35px;
+  }
+}
+@media (max-width: 575px) {
+  .title span.pacifico {
+    font-size: 30px;
   }
 }
 .main_news {
@@ -10574,6 +10584,7 @@ header ul li {
   -webkit-align-items: center;
   position: relative;
   background: #fff;
+  overflow-x: hidden;
 }
 .footer_menu:before {
   content: '';
@@ -10584,6 +10595,11 @@ header ul li {
   max-width: 412px;
   height: 99px;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='412' height='99' viewBox='0 0 412 99' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M1 7.94385C1 7.94385 55.5 -16.819 129.5 27.181C172.769 49.3095 162.124 74.778 228.5 94.181C282 109.82 367.5 73.681 367.5 35.8805C362 5.68094 345.315 31.3501 345.315 31.3501C345.315 31.3501 334.293 27.2245 327.5 39.6809C330.712 49.4992 330 67.1809 411 58.1809' stroke='%23CECBDE' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round' stroke-dasharray='5 5'/%3e%3c/svg%3e ");
+}
+@media (max-width: 767px) {
+  .footer_menu:before {
+    left: 0;
+  }
 }
 .footer_menu .nav {
   display: flex;
@@ -10698,6 +10714,11 @@ footer {
     min-height: 287px;
   }
 }
+@media (max-width: 767px) {
+  .crumb_title {
+    background-position: 75% 100%;
+  }
+}
 .crumb_title.bg_dark:before {
   content: '';
   position: absolute;
@@ -10712,6 +10733,14 @@ footer {
   .crumb_title.bg_dark:before {
     left: -300px;
   }
+}
+.crumb_title.bg_dark .title_or_img h1 span,
+.crumb_title.bg_dark .title_or_img .h1 span {
+  color: #fff;
+}
+.crumb_title.bg_dark .title_or_img h1 strong,
+.crumb_title.bg_dark .title_or_img .h1 strong {
+  color: #fff;
 }
 .crumb_title.bg_white:before {
   content: '';
@@ -10740,6 +10769,12 @@ footer {
 @media (max-width: 767px) {
   .crumb_title .title_or_img {
     padding: 20px 0 40px;
+  }
+}
+@media (max-width: 575px) {
+  .crumb_title .title_or_img h1,
+  .crumb_title .title_or_img .h1 {
+    text-align: left;
   }
 }
 .crumb_title .title_or_img h1 span,
