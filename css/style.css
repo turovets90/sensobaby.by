@@ -10979,6 +10979,12 @@ ul.options li:before {
   position: relative;
   text-align: center;
   padding-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+.assotriment_box .assotriment_list .assotriment_item:hover,
+.assotriment_box .assotriment_list .assotriment_item:focus {
+  text-decoration: none;
 }
 .assotriment_box .assotriment_list .assotriment_item:before {
   content: '';
