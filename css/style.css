@@ -11033,6 +11033,13 @@ ul.options li:before {
   font-size: 22px;
   color: #333;
   margin-bottom: 45px;
+  display: inline-block;
+  text-decoration: none;
+}
+.related_categories .cat_name:hover,
+.related_categories .cat_name:focus {
+  text-decoration: none;
+  color: #3D3185;
 }
 .related_categories .btn_default {
   margin: auto;
@@ -11216,7 +11223,7 @@ ul.options li:before {
   margin-right: 15px;
 }
 .product_info_box .d_flex span {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
   color: #333;
 }
